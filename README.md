@@ -19,10 +19,9 @@ A macOS menu bar app that monitors system metrics in real time.
 
 ## Building
 
-Open `MachineStatus/MachineStatus.xcodeproj` in Xcode and build, or use Swift Package Manager:
+Open `MachineStatus.xcodeproj` in Xcode and build, or use Swift Package Manager:
 
 ```bash
-cd MachineStatus
 swift build
 ```
 
@@ -32,7 +31,6 @@ To add Machine Status to your Applications folder and Dock:
 
 1. **Build a release binary:**
    ```bash
-   cd MachineStatus
    swift build -c release
    ```
 
